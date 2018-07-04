@@ -1,0 +1,19 @@
+{
+  "name": "react-external-image",
+  "version": "1.0.0",
+  "description": "A light-weight component to load external images in React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "external",
+    "image",
+    "remote",
+    "image"
+  ],
+  "author": "Shivam Singh <singhshivam.172@gmail.com> (https://codefiddle.wordpress.com)",
+  "license": "ISC"
+}
