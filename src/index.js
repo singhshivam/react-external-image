@@ -50,7 +50,7 @@ class ExternalImage extends React.Component {
 		const { className, loader } = this.props
 		const { loading } = this.state
 		if (loading) {
-			return loader ? <span>{loader}</span> || null
+			return loader ? <span>{loader}</span> : null
 		} else {
 			return <img src={this.image.src} className={className || ""}/>
 		}
