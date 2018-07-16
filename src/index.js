@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class ExternalImage extends React.Component {
 	constructor(props) {
@@ -54,6 +55,13 @@ class ExternalImage extends React.Component {
 			return <img src={this.image.src} className={className || ""}/>
 		}
 	}
+}
+
+ExternalImage.propTypes = {
+	fallbackImages: PropTypes.array,
+	className: PropTypes.string,
+	loader: PropTypes.object,
+	src: PropTypes.string
 }
 
 export default ExternalImage
